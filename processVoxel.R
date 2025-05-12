@@ -1,8 +1,8 @@
-require(tidyr)
-require(lavaan)
-require(tidySEM)
-require(ggplot2)
 
+suppressWarnings(suppressPackageStartupMessages(library(lavaan)))
+suppressWarnings(suppressPackageStartupMessages(library(tidyr)))
+suppressWarnings(suppressPackageStartupMessages(library(tidySEM)))
+suppressWarnings(suppressPackageStartupMessages(library(ggplot2)))
 
 processVoxel <- function(v) {
     # Get all participant connectivity values for voxel v
